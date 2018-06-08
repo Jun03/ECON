@@ -1,0 +1,218 @@
+
+div.container{
+overflow:hidden;
+margin-left:auto;
+margin-right:auto;
+width:1350px;
+}
+
+div.header{
+width:100%;
+margin:0 auto;
+overflow:hidden;
+}
+
+#logo{
+max-width:500%;
+float:left;
+margin-top:-15px;
+}
+
+div.ECONttltgl{
+float:left;
+margin-top:30px;
+}
+
+#title{
+max-width:500%;
+margin-top:-30px;
+-webkit-text-stroke: 2px #000066;
+}
+
+#tagline
+{
+font-family:Segoe Script;
+color:#5c5c3d;
+font-size:18;
+margin-top:-20%;
+}
+
+
+
+
+
+div.choice
+{
+margin:0 auto;
+overflow:hidden;
+}
+
+div.login{
+margin:0 auto;
+overflow:hidden;
+}
+
+div.signup{
+margin:0 auto;
+overflow:hidden;
+}
+
+#part{
+
+float:left;
+max-width:500%;
+margin-left:7%;
+}
+
+#jump{
+float:left;
+max-width:500%;
+margin-left:13%;
+}
+
+#loginbtn{
+float:left;
+max-width:500%;
+}
+
+#signupbtn{
+float:left;
+max-width:500%;
+}
+
+.loginbtn{
+width:150px;
+height:60px;
+border-radius:20px;
+font-family:Berlin Sans FB;
+font-size:28;
+color:White;
+background:#5cd65c;
+margin-left:24%;
+cursor:pointer;
+}
+
+
+.signupbtn{
+width:150px;
+height:60px;
+border-radius:20px;
+font-family:Berlin Sans FB;
+font-size:28;
+color:White;
+background:#264d73;
+margin-left:24%;
+cursor:pointer;
+
+}
+
+
+.loginbtn:focus{
+outline:none;
+}
+
+
+
+.signupbtn:focus{
+outline:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#TXTINFO{
+margin:0 auto;
+overflow:hidden;
+width:60%;
+float:left;
+}
+
+#WIE{
+margin:0 auto;
+overflow:hidden;
+}
+
+#textinfo{
+margin:0 auto;
+overflow:hidden;
+float:left;
+}
+
+div.Sidebtn{
+float:right;
+width:14%;
+overflow:hidden;
+margin-top:10px;
+}
+
+a:hover{
+color:#008fb3;
+}
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes shakeit {
+0% { -webkit-transform: rotate(0deg) translate(2px, 1px); }
+10% { -webkit-transform: rotate(2deg) translate(1px, 2px); }
+20% { -webkit-transform: rotate(-2deg) translate(3px, 0px) ; }
+30% { -webkit-transform: rotate(0deg) translate(0px, -2px); }
+40% { -webkit-transform: rotate(-2deg) translate(-1px, 1px); }
+50% { -webkit-transform: rotate(2deg) translate(1px, -2px); }
+60% { -webkit-transform: rotate(0deg) translate(3px, -1px); }
+70% { -webkit-transform: rotate(2deg) translate(-2px, -1px); }
+80% { -webkit-transform: rotate(-2deg) translate(1px, 1px); }
+90% { -webkit-transform: rotate(0deg) translate(-2px, -2px); }
+100% { -webkit-transform: rotate(2deg) translate(-1px, 2px); }
+}
+@keyframes shakeit {
+0% { transform: rotate(0deg) translate(2px, 1px); }
+10% { transform: rotate(2deg) translate(1px, 2px); }
+20% { transform: rotate(-2deg) translate(3px, 0px) ; }
+30% { transform: rotate(0deg) translate(0px, -2px); }
+40% { transform: rotate(-2deg) translate(-1px, 1px); }
+50% { transform: rotate(2deg) translate(1px, -2px); }
+60% { transform: rotate(0deg) translate(3px, -1px); }
+70% { transform: rotate(2deg) translate(-2px, -1px); }
+80% { transform: rotate(-2deg) translate(1px, 1px); }
+90% { transform: rotate(0deg) translate(-2px, -2px); }
+100% { transform: rotate(2deg) translate(-1px, 2px); }
+}
+.signupbtn:hover {
+-webkit-animation-name: shakeit;
+-webkit-animation-duration: 1s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-name: shakeit;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+.loginbtn:hover {
+-webkit-animation-name: shakeit;
+-webkit-animation-duration: 1s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-name: shakeit;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+
+
+
